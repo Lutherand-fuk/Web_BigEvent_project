@@ -53,7 +53,7 @@ function getUserInfo() {
     })
 }
 
-//渲染用户头像
+//渲染用户头像和文本
 function renderAvatar(user) {
     //1.获取用户的名称
     var name = user.nickname || user.username
